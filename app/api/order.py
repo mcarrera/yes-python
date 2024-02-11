@@ -22,8 +22,8 @@ dummy_orders = [
             # "id": "87654321-8765-4321-8765-432187654321",
         },
        
-    ),
-    # Add more orders here...
+    )
+    
 ]
 
 @router.get("/orders", response_model=List[OrderDto])
